@@ -15,7 +15,7 @@ ul{
     list-style:none
 }
 
-/* HEADER */
+/* //////////////////// HEADER ///////////////*/
 
 .navbar{
     height: 80px;
@@ -52,26 +52,25 @@ ul{
     cursor: pointer;
 }
 
-/* MAIN */
+/* ////////////////// MAIN////////////////// */
 
 main{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     text-align: center;
     padding: 20px;
     margin: 50px 10px 40px;
 }
 
 main section{
-    margin: 20px;
+    height: 300px;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
 }
 .container-main{
-    height: 400px;
-    width: auto;
     color: #747375 ;
     font-size: 20px;
-
+    border-bottom: 1px solid #bdbdbe; 
 
 }
 
@@ -80,8 +79,8 @@ span{
 }
 
 img{
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
     border-radius: 60%;
     margin-bottom: 20px;
 }
@@ -93,7 +92,32 @@ img{
     color: #4ACBEE;
     font-size: 17px;
     background-color: #FFFFFF;
-    border-color: #4ACBEE;
+    border: 1px solid #4ACBEE;
     border-radius: 20px;
-    
 }
+
+/* //////// WORK EXPERIENCE///// */
+
+h2{
+    color: #2C2D2D;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #747375;
+}
+
+.box-container h3{
+    color: #2C2D2D;
+}
+
+.box-company-blue {
+    width: 160px;
+    background-color: blue;
+}
+
+
