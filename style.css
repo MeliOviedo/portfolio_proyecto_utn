@@ -56,21 +56,44 @@ ul{
 
 main{
     display: flex;
+    justify-content: center;
     flex-direction: column;
     text-align: center;
     padding: 20px;
-    margin: auto;
+    margin: 50px 10px 40px;
 }
 
 main section{
     margin: 20px;
 }
 .container-main{
+    height: 400px;
+    width: auto;
+    color: #747375 ;
+    font-size: 20px;
+
 
 }
 
+span{
+    color: #2C2D2D ;
+}
+
 img{
-    height: 180px;
-    width: 180px;
+    height: 150px;
+    width: 150px;
     border-radius: 60%;
+    margin-bottom: 20px;
+}
+
+.container-main button{
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    color: #4ACBEE;
+    font-size: 17px;
+    background-color: #FFFFFF;
+    border-color: #4ACBEE;
+    border-radius: 20px;
+    
 }
