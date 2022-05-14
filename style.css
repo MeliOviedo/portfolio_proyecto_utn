@@ -54,7 +54,23 @@ ul{
 
 /* MAIN */
 
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+
+main section{
+    margin: 20px;
+}
+.container-main{
+
+}
+
 img{
-    height: 300px;
-    border-radius: 150%;
+    height: 180px;
+    width: 180px;
+    border-radius: 60%;
 }
