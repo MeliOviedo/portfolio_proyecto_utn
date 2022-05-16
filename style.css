@@ -141,13 +141,52 @@ h2{
     height: 600px;
     width: 600px;
 }
+
+.box-company-green {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bolder;
+    height: 20px;
+    width: 180px;
+    background-color:#1BBF72;
+    border-radius: 10px;
+}
 /* ////// SKILLS Y CONTACT //////////// */
 
 .container-skills{
     display: flex;
     height: 200px;
+    width: 650px;
     justify-content: space-around;
     margin-top: 100px;
+    color: #2C2D2D
+}
+
+.box-skills{
+    height: 180px;
+    width: 300px;
+    padding: 5px;
+    text-align: left;
+    border: 2px solid #8b9b9b34;
+}
+
+.box-skills ul li{
+    width: 280px;
+    border-bottom: 3px solid #6767dd;
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: left;
+    line-height: 25px;
+}
+
+.box-contact{
+    height: 180px;
+    width: 300px;
+    padding: 5px;
+    text-align: left;
+    border: 2px solid #8b9b9b34;
+    text-align: left;
+    line-height: 25px;
 }
 
 
