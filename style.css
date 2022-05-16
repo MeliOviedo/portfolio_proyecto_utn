@@ -116,8 +116,14 @@ h2{
 }
 
 .box-company-blue {
-    width: 160px;
-    background-color: blue;
+    color: #FFFFFF;
+    width: 180px;
+    background-color:#4ACBEE;
+    border-radius: 10px;
+}
+
+.box-date {
+    width: 250px;
 }
 
 
