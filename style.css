@@ -56,16 +56,16 @@ ul{
 
 main{
     text-align: center;
-    padding: 20px;
     margin: 50px 10px 40px;
 }
 
 main section{
-    height: 300px;
+    height: 400px;
     width: 600px;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #bdbdbe;
 }
 .container-main{
     color: #747375 ;
@@ -109,14 +109,19 @@ h2{
     margin-top: 50px;
     margin-bottom: 50px;
     color: #747375;
+    
 }
 
 .box-container h3{
     color: #2C2D2D;
+    line-height: 30px;
 }
 
 .box-company-blue {
     color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bolder;
+    height: 20px;
     width: 180px;
     background-color:#4ACBEE;
     border-radius: 10px;
@@ -124,6 +129,25 @@ h2{
 
 .box-date {
     width: 250px;
+}
+
+.box-text {
+    text-align: left;
+    margin-top: 10px;
+}
+/* /////// EDUCATION //////// */
+
+.container-education{
+    height: 600px;
+    width: 600px;
+}
+/* ////// SKILLS Y CONTACT //////////// */
+
+.container-skills{
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    margin-top: 100px;
 }
 
 
