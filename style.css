@@ -165,13 +165,13 @@ h2{
 .box-skills{
     height: 180px;
     width: 300px;
-    padding: 5px;
+    padding: 20px;
     text-align: left;
     border: 2px solid #8b9b9b34;
 }
 
 .box-skills ul li{
-    width: 280px;
+    width: 260px;
     border-bottom: 3px solid #6767dd;
     font-size: 12px;
     font-weight: bolder;
@@ -182,11 +182,29 @@ h2{
 .box-contact{
     height: 180px;
     width: 300px;
-    padding: 5px;
+    padding: 20px;
     text-align: left;
     border: 2px solid #8b9b9b34;
     text-align: left;
-    line-height: 25px;
+    line-height: 30px;
+
+}
+
+/* ///// //////////HOBBIES//////////// */
+
+.container-hobbies {
+    height: 200px;
+    margin-top: 20px;
+}
+
+.container-hobbies p{
+    padding: 10px;
+    color: #747375;
+}
+
+/* /////////FOOTER//////////////// */
+footer{
+    background-color: #1BBF72;
 }
 
 
